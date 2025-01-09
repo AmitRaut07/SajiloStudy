@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f9fb;
+    margin: 0;
+    padding: 0;
+    color: #34495e;
+}
+
+h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* About Section */
+.about {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 30px auto;
+    max-width: 900px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.about-container {
+    padding: 20px;
+}
+
+/* Paragraph Styles */
+.about p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+/* Strong text within paragraph */
+.about p strong {
+    color: #1abc9c;
+    font-weight: bold;
+}
+
+/* Adding a 'read more' style button (optional for future use) */
+.read-more-btn {
+    display: inline-block;
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.read-more-btn:hover {
+    background-color: #16a085;
+}
+
+/* For smaller devices (mobile-first responsiveness) */
+@media (max-width: 600px) {
+    .about {
+        padding: 20px;
+        margin: 20px 10px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .about p {
+        font-size: 16px;
+    }
+}
